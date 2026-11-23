@@ -1,0 +1,56 @@
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f8f9fa;
+  color: #1e293b;
+}
+
+.product-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08) !important;
+}
+
+.category-card {
+  transition: all 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.category-card:hover {
+  transform: translateY(-3px);
+  border-color: #0d6efd !important;
+  box-shadow: 0 8px 16px rgba(13, 110, 253, 0.1) !important;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  
+}
+  .btn-otro_color {
+  background-color: #33234e;
+  border-color: #7c3aed;
+  color: #ffffff;
+}
+
+.btn-otro_color:hover {
+  background-color: #baafd0;
+  border-color: #1e3034;
+  color: #ffffff;
+}
+  .btn-otro_color2 {
+  background-color: #214833;
+  border-color: #a1f2bc;
+  color: #ffffff;
+}
+
+.btn-otro_color2:hover {
+  background-color: #baafd0;
+  border-color: #1e3034;
+  color: #ffffff;
+}
